@@ -22,7 +22,6 @@ def toggleSpeedLimitsMode(session):
     return r.text
 
 def main():
-    """Launcher."""
     sys.stdout = open('log.txt', 'w')
 
     parser = argparse.ArgumentParser()
@@ -54,9 +53,6 @@ def main():
         toggleSpeedLimitsMode(s)
 
     sys.stdout.close()
-
-
-
 
 
 if __name__ == "__main__":
