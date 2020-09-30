@@ -1,7 +1,7 @@
 
 '''
 Will toggle the Alternative Speed mode in qBitTorrent at
-times when Plex is streaming non-local content. 
+times when Plex is streaming content. 
 '''
 
 import requests
